@@ -9,7 +9,7 @@ header{
   background-color: white;
   border-bottom: 1px solid black;
 }
-img{
+.slideshow-container img,.hots img,.news img{
   height: 700px;
 }
 
@@ -246,8 +246,8 @@ main{
 }
 /*hang hot*/
 .hots{
-  top: 5f0px;
-  display: flex;
+  height: 704px;
+  margin:5px 0px;
   position: relative;
 }
 .hot1{
@@ -339,10 +339,36 @@ height:600px;
   .ngocanh_text{
       text-align: center;
   }
- .ngocanh_type{
-  margin-top: 40px;
+  .ngocanh_type{
+    
+    margin-top: 40px;
+    display:inline-block;  
+    
+   }
+   .ngocanh_image{
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 700px;
+    padding: 15px ;
 
- }
+   }
+   .ngocanh_texts{
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+   }
+   .buy{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 35px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+   }
  /*==========================================================================================*/
 
 
