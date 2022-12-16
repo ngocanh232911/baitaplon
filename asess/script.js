@@ -85,4 +85,24 @@ for(let i=0;i<color.length;i++)
 
   
 }
+for(let i=0;i<color.length;i++)
+{
+  let j=i
+  color[i].addEventListener('click',()=>{
+    color[i].style.border="5px solid black"
+       color[i].addEventListener('click',()=>{
+        if(color[i].style.border==="5px solid black")
+        {
+          color[i].style.border="1px solid black"
+          i=0;
+        }
+        else{
+          i++
+        }
+       })
+    
+  })
+
+  
+}
 
