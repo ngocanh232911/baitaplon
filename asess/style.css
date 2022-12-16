@@ -9,10 +9,6 @@ header{
   background-color: white;
   border-bottom: 1px solid black;
 }
-.slideshow-container img,.hots img,.news img{
-  height: 700px;
-}
-
 /*container*/
 .container{
   margin:0 auto;
@@ -140,7 +136,6 @@ main{
 /* Hide the images by default */
 .mySlides {
   display: none;
-
 }
 
 /* Next & previous buttons */
@@ -197,10 +192,6 @@ main{
 
 }
 /*hang moi*/
-.mySlides2{
-  display: none;
-
-}
 .news{
   position: relative;
   margin-top: 5px;
@@ -208,23 +199,72 @@ main{
 .new1{
   width: 10%;
   position: absolute;
-  left: 0;
+  left: 60px;
   z-index: 1;
 }
 .new2{
   width: 85%;
   position: relative;
-  left: 200px;
-  z-index: 2;
-}
-.images{
+  left: 13%;
   display: inline-block;
+
+}
+
+.images{
+  position: relative;
+  width: 29%;
+  display: inline-block;
+}
+.image{
+  position: relative;
+
+}
+.name{
+position: relative;
+left: 50%;
+margin:0;
+}
+.money{
+position: relative;
+left: 50%;
+margin: 0px;
+
+}
+.color
+{
+  position: relative;
+  left: 49%;
+  z-index: 1;
+  margin: 0px;
+
+}
+.adds{
+  width: 100%;
+  position: absolute;
+  z-index: 1;  
+  display: none;  
+  margin: 0px 10%;
+  top:70%;
+
+}
+.add{
+display: inline-block;
+width: 40%;
+text-align: center;
+border: 1px solid black;   
+}
+.images:hover .adds{
+  display: inline-block;
+}
+.mySlides2{
+  display: none;
+
 }
 .prev2{
   position: absolute;
   z-index: 1;
-  left: -22px;
-  top: 297px; 
+  left: -2%;
+  top: 40%; 
   font-size: 30px;
 
 }
@@ -233,20 +273,16 @@ main{
 .next2 {
   position: absolute;
  z-index: 2;
-  top: 297px;
+  top: 40%;
   font-size: 30px;
-}
+  right: 11%;
 
-/* On hover, add a black background color with a little bit see-through */
+}
 .prev2:hover, .next2:hover {
   background-color: rgba(0,0,0,0.8);
 }
-.image{
-  width: 33%;
-}
 /*hang hot*/
 .hots{
-  height: 704px;
   margin:5px 0px;
   position: relative;
 }
@@ -254,13 +290,14 @@ main{
   width: 10%;
   position: absolute;
   z-index: 1;
-  right: 50px;
+  left: 1420px;
+
 }
 .hot2{
   width: 85%;
-  position: absolute;
+  position:relative;
   z-index: 2;
-  left: 15px;
+  left: 85px;
 }
 .mySlides3{
   display: none;
@@ -268,8 +305,8 @@ main{
 .prev3{
   position: absolute;
   z-index: 1;
-  left: -22px;
-  top: 284px; 
+  left: -2%;
+  top: 40%; 
   font-size: 30px;
 
 }
@@ -278,8 +315,10 @@ main{
 .next3 {
   position: absolute;
  z-index: 2;
-  top: 284px;
+  top: 40%;
   font-size: 30px;
+  right: 10.5%;
+
 }
 
 /* On hover, add a black background color with a little bit see-through */
