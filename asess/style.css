@@ -221,23 +221,24 @@ main{
 }
 .name{
 position: relative;
-left: 50%;
+left: 10%;
 margin:0;
 }
 .money{
 position: relative;
-left: 50%;
+left: 40%;
 margin: 0px;
 
 }
 .color
 {
   position: relative;
-  left: 49%;
+  left: 45%;
   z-index: 1;
   margin: 0px;
 
 }
+
 .adds{
   width: 100%;
   position: absolute;
