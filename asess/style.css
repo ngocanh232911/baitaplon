@@ -123,6 +123,35 @@ header{
 #boy:hover .list_brand{
   display: inline-block;
 }
+/*HOVER GIO HANG*/
+#CARD:HOVER .list_brand1{
+  display: inline-block;
+}
+.list_brand1{
+  width: 115%;
+  display: none;
+  height: 160px;
+  border-top: 1px solid black;
+  background-color: white;
+  right: 0px;
+  top: 50px;
+  position: absolute;
+  gap: 20px;
+  border: 0px 5%;
+}
+.sanpham{
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  text-align: center;
+  width: 40%;
+}
+.giatien{
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  width: 40%;
+}
 /*main*/
 main{
   margin-top: 71px;
@@ -291,7 +320,7 @@ border: 1px solid black;
   width: 10%;
   position: absolute;
   z-index: 1;
-  left: 1420px;
+  left: 1300px;
 
 }
 .hot2{
