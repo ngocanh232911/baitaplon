@@ -438,7 +438,66 @@ height:600px;
     border-radius: 20px;
     padding: 5px;
    }
- /*==========================================================================================*/
+ /*==========================================================================================* Footer/
+.ngocanhle-container{
+display: flex;
+margin-right:5%;
+}
+.ngocanhle-text5{
+    display:flex;
+}
+.ngocanhle-text7{
+    display:flex
+}
+.ngocanhle-text1{
+    display:flex;
+    justify-content: space-between;
+}
+button{
+    color:aliceblue;
+    background-color: black;
+}
+body{
+    background-color: rgb(176, 201, 221);
+}
+.ngocanhle-text8{
+    display:flex;
+}
+.ngocanhle-text2{
+    margin-right:5%;
+    margin-left:5%;
+
+}
+.ngocanhle-text3{
+    margin-right:5%;
+    margin-left:5%;
+}
+.ngocanhle-text4{
+    margin-right:5%;
+    margin-left:5%;
+}
+
+@media only screen and ( max-width:860px){
+    .ngocanhle-text8{
+        display:block
+    }
+    .ngocanhle-container{ display:block}
+    .ngocanhle-text10{
+        display:none;
+    }
+   .ngocanhle-text9:hover   .ngocanhle-text10{
+    display:grid;
+   }
+   .ngocanhle-text9{ margin-left:0%;}
+   .ngocanhle-text13{display:none}
+   .ngocanhle-text12:hover   .ngocanhle-text13{display:grid}
+   .ngocanhle-text6{
+    margin-left: 5%;
+   }
+   
+    }
+
+
 
 
 
